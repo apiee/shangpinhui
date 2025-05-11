@@ -1,0 +1,71 @@
+/* 基础设置 */
+.container {
+    /* 版心 */
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* 顶部导航条start */
+.topbar {
+    height: 30px;
+    background: #ECECEC;
+}
+
+.welcome {
+    /* 文本元素垂直居中 */
+    height: 30px;
+    line-height: 30px;
+
+    /* 消除文本元素缝隙 */
+    font-size: 0;
+
+    /* 文字颜色 */
+    color: #666;
+}
+
+.welcome span,
+.welcome a {
+    font-size: 12px;
+}
+
+.welcome .hello {
+    margin-right: 28px;
+}
+
+.welcome .login {
+    /* 此处不用margin, 因为边框 */
+    padding-right: 20px;
+    border-right: 1px solid #666;
+}
+
+.welcome .register {
+    padding-left: 20px;
+}
+
+.topbar-nav .list {
+    /* 文本元素垂直居中 */
+    height: 30px;
+    line-height: 30px;
+    /* 行高属于文字东西, 是会被继承的*/
+    /* 行高 上下缝隙 */
+}
+
+.topbar-nav .list li {
+    float: left;
+}
+
+.topbar-nav .list li a {
+    padding: 0 15px;
+    border-right: 1px solid #666;
+}
+
+.topbar-nav .list li:first-child a {
+    padding-left: 0;
+}
+
+.topbar-nav .list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+
+/* 顶部导航条end */
