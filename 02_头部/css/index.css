@@ -68,4 +68,44 @@
     border: 0;
 }
 
-/* #endregion 顶部导航条 */
+/* #endregion 顶部导航条*/
+
+
+/* #region 头部 */
+.header {
+    /* 1.设置高度 */
+    height: 120px;
+    background-color: skyblue;
+}
+
+.header .logo {
+    width: 190x;
+    height: 120px;
+}
+
+.header .search form {
+    margin-top: 42px;
+    /* 去掉空隙 */
+    font-size: 0;
+}
+
+/* 表单类元素默认样式比继承父级的样式的优先级高 */
+.header .search input {
+    box-sizing: border-box;
+    width: 510px;
+    height: 36px;
+    border: 1px solid #dd302d;
+}
+
+.header .search button {
+    width: 80px;
+    height: 36px;
+    background: #dd302d;
+    /* 设置基线对齐 */
+    vertical-align: top;
+    background-image: url(../images/serch_icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+/* #endregion 头部 */
